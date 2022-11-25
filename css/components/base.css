@@ -1,0 +1,56 @@
+* {
+    font-family: 'DM Sans';
+}
+
+.header {
+    background-color: #3098f3;
+    display: flex;
+    height: 81px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11111;
+}
+
+.section-content {
+    max-width: 1440px;
+    margin: auto;
+    padding: 160px;
+}
+
+.logo {
+    width: 115px;
+    height: 24px;
+}
+
+.title {
+    font-size: 51px;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 52px;
+    color: #fc0;
+}
+
+.text {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .section-content {
+        margin: auto;
+        padding: 10px;
+    }
+}

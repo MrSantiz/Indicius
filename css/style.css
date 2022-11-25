@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import "/css/components/base.css";
+@import "/css/components/info.css";
+@import "/css/components/intro.css";
+@import "/css/components/servis.css";
+@import "/css/components/welcome.css";
+@import "/css/components/footer.css";
+@import "/css/style.css";
+@import "/css/reset.css";
+
+
+
+/* 
+flex-direction: column | row;
+align-items: center;
+justify-content: center; 
+gap: 60px; 
+*/
+/* 100vh = 1 height monitor */
+/* 100wv = 1 width monitor */
